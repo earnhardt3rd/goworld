@@ -1,7 +1,10 @@
 package main
 
-import "fmt"
+import (
+   "fmt"
+   "github.com/earnhardt3rd/goworld/string"
+)
 
 func main() {
-   fmt.Print("hello, world\n")
+   fmt.Println(string.Reverse("hello, world!"))
 }
